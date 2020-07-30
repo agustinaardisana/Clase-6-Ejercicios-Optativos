@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.contenedor-general{
+    font-family: Montserrat;
+    background-color: rgb(240, 240, 240);
+    display: block;
+    height: 900px;
+    padding-top: 350px;
+    padding-left: 550px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
+.contenedor-notificaciones{
+    background-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+img{
+    width: 80px;
+    height: auto;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}

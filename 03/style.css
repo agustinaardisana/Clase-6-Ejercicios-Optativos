@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.banderas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.argentina, .paises-bajos, .austria, .el-salvador, .luxenburgo, .sierra-leona {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 300px;
+}
+.celeste, .rojo, .azul, .verde {
+    height: 65px;
+}
+.celeste {
+    background-color: lightskyblue;
+}
+
+.blanco {
+    background-color: white;
+    height: 70px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: rgb(28, 28, 173);
+}
+
+.verde {
+background-color: green;
+}
